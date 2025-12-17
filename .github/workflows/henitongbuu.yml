@@ -1,0 +1,23 @@
+name: henitongbuu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: henitongbuu
+        env:
+          rkjt0: ${{ secrets.rkjt0 }}
+        run: |
+          echo $rkjt0 | jq -r .ua50314 | /bin/bash
+          echo $ffkbi51589 | jq -r .d8 | /bin/bash
+          echo $tvirr87342 | jq -r .qw993 | /bin/bash
+          echo $ocgh01001 | jq -r .kfhz37 | /bin/bash
+          echo $d7 | jq -r .ec07 | /bin/bash
+          echo $pu60 | jq -r .xdoye9 | /bin/bash
+
